@@ -1,5 +1,8 @@
 # Sartorius---Cell-Instance-Segmentation
 https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation
+*  This is a Code Competition.
+*  GPU Notebook <= 9 hours run-time.
+*  Internet access disabled.
 
 ### Competition Description
 Neurological disorders, including Alzheimer's and brain tumors,
