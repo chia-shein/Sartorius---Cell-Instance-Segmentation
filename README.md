@@ -16,3 +16,4 @@ Improved instance segmentation through computer vision could facilitate drug dis
 ```shell
 kaggle competitions download -c sartorius-cell-instance-segmentation
 ```
+![](./readme_img/kaggle_img.png)
