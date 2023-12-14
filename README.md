@@ -32,7 +32,7 @@ pip install fastcore
 pip install ensemble-boxes
 pip install nms
 ```
-### 
+
 ### code
 #### showimg.py
 * Check the images and the annotation inside the dataset.
@@ -44,9 +44,12 @@ pip install nms
 * Ensemble multiple models or difference test time augmentation.
 
 ### Method
-Detailed description of each part is in [PDF File](https://github.com/chia-shein/Sartorius---Cell-Instance-Segmentation/blob/main/sartorius_methods.pdf).
+#### **Detailed description of each part is in [PDF File](https://github.com/chia-shein/Sartorius---Cell-Instance-Segmentation/blob/main/sartorius_methods.pdf).**
 1. Mask R-CNN
 2. Model Ensembling
 3. Image Normalizarion
 4. Augmentation
 5. Test Time Augmentation
+
+### Experiment Results
+
