@@ -66,6 +66,7 @@ python ensemble_inference.py
 
 ### Experiment Results
 #### **Detailed description of each table is in [PDF File]([https://github.com/chia-shein/Sartorius---Cell-Instance-Segmentation/blob/main/sartorius_methods.pdf](https://github.com/chia-shein/Sartorius---Cell-Instance-Segmentation/blob/main/experiment_result.pdf)).**
+
 #### 1. Sartorius Cell Segmentation Ablation Results
 
 |   NO   |  Backbone  |  Training Iteration  |   Model Ensemble  |  Imagenet Normalization   |  Color Augmentation   |  Test Time Augmentation   |  mAP   |
