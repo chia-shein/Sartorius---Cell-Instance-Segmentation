@@ -76,5 +76,12 @@ python ensemble_inference.py
 
 #### 2. Sartorius Cell Segmentation Results
 
+|   NO   |  Backbone  |  Training Iteration  |   Model Ensemble  |  mAP   |
+|:------:|:------:|:------:|:------:|:------:|
+| 1 | ResNet50 | 9,679 | -  | 0.300 |
+| 2 | ResNet50 | 10,679 | - | 0.302 |
+| 3 | ResNet50 + ResNet50 | 10,679 | v | 0.303 |
+| 4 | ResNet50 + ResNet50 | 11,679 | v | 0.304 |
+
 ### Competition Result
 
