@@ -23,6 +23,7 @@ In order to prevent the database from being deleted, I first backed it up to my 
 
 ![](./readme_img/image_ann.png)
 ### Dependencies
+* pytorch-21.06-py3:latest
 ```shell
 sudo apt-get update
 sudo apt-get install ffmpeg libsm6 libxext6  -y
