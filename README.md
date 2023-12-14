@@ -87,7 +87,7 @@ python ensemble_inference.py
 | 4 | ResNet50 + ResNet50 | 11,679 | v | 0.304 |
 
 ### Competition Result
-* Our submitted model achieved an mAP of **0.304**, securing the **179th** position out of 1506 on the competition leaderboard.
+* Our submitted model achieved an mAP of **0.316**, securing the **179th** position out of 1506 on the competition leaderboard.
 ![](./readme_img/result-179_1506.png)
 
 * The mAP of the top five can reach about 0.35.
