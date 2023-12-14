@@ -31,5 +31,7 @@ pip install pycocotools
 pip install 'git+https://github.com/facebookresearch/detectron2.git'
 ```
 
-### 
-
+### code
+#### showimg.py
+* Check the images and the annotation inside the dataset.
+#### 
