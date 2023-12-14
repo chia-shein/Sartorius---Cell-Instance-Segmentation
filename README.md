@@ -3,7 +3,7 @@ https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation
 *  This is a Code Competition.
 *  GPU Notebook <= 9 hours run-time.
 *  Internet access disabled.
-
+## NCKU "Machine Learning" - Competition
 ### Competition Description
 Neurological disorders, including Alzheimer's and brain tumors,
 are major global health issues causing death and disability.
