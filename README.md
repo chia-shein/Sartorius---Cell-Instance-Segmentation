@@ -17,3 +17,16 @@ Improved instance segmentation through computer vision could facilitate drug dis
 kaggle competitions download -c sartorius-cell-instance-segmentation
 ```
 ![](./readme_img/kaggle_img.png)
+
+In order to prevent the database from being deleted, I first backed it up to my personal cloud space.
+
+* [(Dataset-GoogleDrive Link)](https://drive.google.com/file/d/1n76PHLwMhEj7LdhSUDbYDPOv75D06bkU/view?usp=sharing) & [(Annotation-json_file)](https://drive.google.com/drive/folders/15_k-MsnejPnD18CqypdHxiF3MBW0hu1D?usp=sharing)
+
+### Dependencies
+```shell
+sudo apt-get update
+sudo apt-get install ffmpeg libsm6 libxext6  -y
+pip install pycocotools
+pip install 'git+https://github.com/facebookresearch/detectron2.git'
+```
+
