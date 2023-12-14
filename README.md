@@ -88,7 +88,8 @@ python ensemble_inference.py
 
 ### Competition Result
 Our submitted model achieved an mAP of **0.304**, securing the **179th** position out of 1506 on the competition leaderboard.
+The mAP of the top five can reach about 0.35.
 ![](./readme_img/result-179_1506.png)
-
+![](./readme_img/top5.png)
 ### Conclusion and Future work
 By employing model ensembling with two Mask R-CNN models trained over an extended period, the final model achieved an mAP of 0.304 for neural cell instance segmentation. In the future, it may be worthwhile to consider incorporating a semi-supervised approach by introducing additional unlabeled images for training. This strategy would enable the model to learn better neural cell image features from a more diverse set of data, potentially leading to increased accuracy.
