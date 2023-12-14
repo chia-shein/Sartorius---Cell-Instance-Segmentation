@@ -62,6 +62,7 @@ python inference.py
 ```shell
 python ensemble_inference.py
 ```
+![](./readme_img/ensemble_inference.png)
 
 ### Experiment Results
 #### 1. Sartorius Cell Segmentation Ablation Results
@@ -90,4 +91,8 @@ In addition, normalizing input images using the pixel mean and pixel standard de
 Normalization of input images was performed using the pixel mean and standard deviation from ImageNet. Two models were separately trained over an extended period, each employing a lightweight ResNet-50 as the backbone for Mask R-CNN. During testing, a model ensemble approach was adopted, combining the detection results of the two models. It is important to note that due to constraints in the competition environment, both the storage space and computational time were limited, influencing the choice of a lightweight backbone and the overall training duration for the models.
 
 ### Competition Result
+Our submitted model achieved an mAP of **0.304**, securing the **179th** position out of 1506 on the competition leaderboard.
+![](./readme_img/result-179_1506.png)
 
+### Conclusion and Future work
+By employing model ensembling with two Mask R-CNN models trained over an extended period, the final model achieved an mAP of 0.304 for neural cell instance segmentation. In the future, it may be worthwhile to consider incorporating a semi-supervised approach by introducing additional unlabeled images for training. This strategy would enable the model to learn better neural cell image features from a more diverse set of data, potentially leading to increased accuracy.
