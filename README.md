@@ -65,7 +65,7 @@ python ensemble_inference.py
 ![](./readme_img/ensemble_inference.png)
 
 ### Experiment Results
-#### **Detailed description of each table is in [PDF File]([https://github.com/chia-shein/Sartorius---Cell-Instance-Segmentation/blob/main/sartorius_methods.pdf](https://github.com/chia-shein/Sartorius---Cell-Instance-Segmentation/blob/main/experiment_result.pdf)).**
+#### **Detailed description of each table is in [PDF File](https://github.com/chia-shein/Sartorius---Cell-Instance-Segmentation/blob/main/experiment_result.pdf).**
 
 #### 1. Sartorius Cell Segmentation Ablation Results
 
