@@ -33,7 +33,7 @@ pip install ensemble-boxes
 pip install nms
 ```
 
-### Method
+### Methods
 #### **Detailed description of each part is in [PDF File](https://github.com/chia-shein/Sartorius---Cell-Instance-Segmentation/blob/main/sartorius_methods.pdf).**
 1. Mask R-CNN
 2. Model Ensembling
