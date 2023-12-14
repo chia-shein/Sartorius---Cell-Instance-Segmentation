@@ -33,16 +33,6 @@ pip install ensemble-boxes
 pip install nms
 ```
 
-### code
-#### showimg.py
-* Check the images and the annotation inside the dataset.
-#### train.py
-* training the model.
-#### inference.py
-* Inference the model with the final model .pth file.
-#### ensemble_inference.py
-* Ensemble multiple models or difference test time augmentation.
-
 ### Method
 #### **Detailed description of each part is in [PDF File](https://github.com/chia-shein/Sartorius---Cell-Instance-Segmentation/blob/main/sartorius_methods.pdf).**
 1. Mask R-CNN
@@ -51,5 +41,40 @@ pip install nms
 4. Augmentation
 5. Test Time Augmentation
 
+### code
+#### showimg.py
+* Check the images and the annotation inside the dataset.
+```shell
+python showimg.py
+```
+#### train.py
+* training the model.
+```shell
+python train.py
+```
+#### inference.py
+* Inference the model with the final model .pth file.
+```shell
+python inference.py
+```
+#### ensemble_inference.py
+* Ensemble multiple models or difference test time augmentation.
+```shell
+python ensemble_inference.py
+```
+
 ### Experiment Results
+#### 1. Sartorius Cell Segmentation Ablation Results
+
+|   NO   |  Backbone  |  Training Iteration  |   Model Ensemble  |  Imagenet Normalization   |  Color Augmentation   |  Test Time Augmentation   |  mAP   |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+| 1 | ResNet50 | 4,000 | - | - | - | - | 0.285 |
+| 2 | ResNet50 + ResNeXt101 | 4,000 | v | - | - | - | 0.291 |
+| 3 | ResNet50 + ResNeXt101 | 4,000 | v | v | - | - | 0.293 |
+| 4 | ResNet50 + ResNeXt101 | 4,000 | v | - | v | - | 0.288 |
+| 5 | ResNet50 + ResNeXt101 | 4,000 | v | - | - | v | 0.25 |
+
+#### 2. Sartorius Cell Segmentation Results
+
+### Competition Result
 
